@@ -1,0 +1,4 @@
+//DATA
+export const REQUEST_DATA_SUCCESS = "REQUEST_DATA_SUCCESS";
+
+
