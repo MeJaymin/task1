@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/helishah/Desktop/ReduxTask/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/agilemac-17/Downloads/task1-master/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/helishah/.gradle/caches/transforms-2/files-2.1/eaba696d76ad4eb71a5367817e6629d5/res/values-v23/values-v23.xml",
+                    "source": "/Users/agilemac-17/.gradle/caches/transforms-2/files-2.1/5df48b66f2b2402cef0c8d5e2a5214b5/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,26 +15,7 @@
                     }
                 },
                 {
-                    "source": "/Users/helishah/.gradle/caches/transforms-2/files-2.1/068754eb17e299a3ad532ed64310cb6c/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "3407",
-                        "endLines": "50",
-                        "endColumns": "12",
-                        "endOffsets": "3552"
-                    }
-                },
-                {
-                    "source": "/Users/helishah/.gradle/caches/transforms-2/files-2.1/969673c430e50e7e11b36778aea0a712/res/values-v23/values-v23.xml",
+                    "source": "/Users/agilemac-17/.gradle/caches/transforms-2/files-2.1/fc522d69790a868f7630a178598fe6a2/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -50,6 +31,25 @@
                         "endLines": "54,58",
                         "endColumns": "10,10",
                         "endOffsets": "3817,4090"
+                    }
+                },
+                {
+                    "source": "/Users/agilemac-17/.gradle/caches/transforms-2/files-2.1/829e7d7547c54ffe68722c619963c859/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "3407",
+                        "endLines": "50",
+                        "endColumns": "12",
+                        "endOffsets": "3552"
                     }
                 }
             ]

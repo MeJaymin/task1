@@ -1,0 +1,6 @@
+module Pods_ReduxTask {
+  umbrella header "Pods-ReduxTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

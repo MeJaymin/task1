@@ -40,6 +40,7 @@ export default (styles = StyleSheet.create({
     borderBottomColor: TOOLBAR_UNDERLINE,
     paddingVertical: 10,
     marginVertical: 10,
+    color:"black"
   },
   btnStyle: {
     backgroundColor: BUTTON_GRADIENT1,

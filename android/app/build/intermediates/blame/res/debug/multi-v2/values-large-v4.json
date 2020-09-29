@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/helishah/Desktop/ReduxTask/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/Users/agilemac-17/Downloads/task1-master/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/helishah/.gradle/caches/transforms-2/files-2.1/eaba696d76ad4eb71a5367817e6629d5/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/agilemac-17/.gradle/caches/transforms-2/files-2.1/5df48b66f2b2402cef0c8d5e2a5214b5/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/helishah/.gradle/caches/transforms-2/files-2.1/969673c430e50e7e11b36778aea0a712/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/agilemac-17/.gradle/caches/transforms-2/files-2.1/fc522d69790a868f7630a178598fe6a2/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

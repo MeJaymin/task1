@@ -1,4 +1,4 @@
-#Mon Sep 21 17:00:59 IST 2020
-base.0=/Users/helishah/Desktop/ReduxTask/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Tue Sep 29 10:24:27 IST 2020
+base.0=/Users/agilemac-17/Downloads/task1-master/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

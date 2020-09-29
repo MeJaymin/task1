@@ -48,7 +48,6 @@ class DisplayForm extends Component {
 }
 
 const mapStateToProps = state => {
-  console.log('Login state==> ', state);
   const {loading, userData} = state.auth;
   return {
     loading,

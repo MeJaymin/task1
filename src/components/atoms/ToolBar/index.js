@@ -4,6 +4,7 @@ import { View, Image, TouchableOpacity, Text, Button } from "react-native";
 import styles from "./style";
 import { scale, verticalScale, moderateScale } from "react-native-size-matters";
 import * as colors from "../../../constants/colors";
+import { BACK_ARROW } from "../../../assets/images";
 
 
 export default class ToolBar extends Component {
@@ -31,7 +32,7 @@ export default class ToolBar extends Component {
                 // source={{
                 //   uri: this.props.leftImage
                 // }}
-                source={this.props.leftImage}
+                source={BACK_ARROW}
                 // source={require(this.props.leftImage)}
               />
             </View>

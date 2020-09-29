@@ -43,6 +43,7 @@ export default (styles = StyleSheet.create({
     width: scale(13), //18
     height: verticalScale(13), //18
     resizeMode: 'contain',
+    tintColor:"black"
   },
   leftImageContainer: {
     width: scale(30),

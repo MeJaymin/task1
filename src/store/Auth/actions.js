@@ -14,7 +14,6 @@ const returnToDispatch = (dispatch, type, payload) => {
 
 export const setUserData = (data) => {
   return dispatch => {
-    console.log('getUserData call==>');
 
     returnToDispatch(dispatch, REQUEST_DATA_SUCCESS, data);
   };

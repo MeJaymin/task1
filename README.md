@@ -28,3 +28,7 @@ cd ..
 - On last button slide event you can navigate in display form.
 
 3) Also use redux
+
+4) Add test cases
+
+5) Add static type checking

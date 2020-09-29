@@ -18,6 +18,7 @@ import {PLACEHOLDER_COLOR} from '../../constants/colors';
 import {showAlert, isFieldEmpty} from '../../utility';
 import {ToolBar} from '../../components/atoms';
 import {BACK_ARROW} from '../../assets/images';
+import PropTypes from 'prop-types';
 
 class Form extends Component {
   constructor(props) {
@@ -26,7 +27,7 @@ class Form extends Component {
       firstName: '',
     };
   }
-
+ 
   //handle first name
   handleFirstName = text => {
     this.setState({firstName: text});
@@ -34,12 +35,11 @@ class Form extends Component {
 
   //Submit press
   onSubmitPress() {
-    if (isFieldEmpty(this.state.firstName)) {
+    if (isFieldEmpty(this.props.firstName == "String")) {
       showAlert('enter first name');
       return false;
     } else {
       this.props.setUserData(this.state.firstName);
-      console.log('form first name last name==> ', this.props.userData);
       this.props.navigation.goBack();
       return false;
     }
@@ -67,7 +67,7 @@ class Form extends Component {
             />
             <View style={styles.loginViewMain}>
               <View style={styles.loginView}>
-                <Text style={{width: '90%', alignSelf: 'center'}}>
+                <Text style={{width: '90%', alignSelf: 'center',color:"black"}}>
                   Enter your name
                 </Text>
                 <TextInput
@@ -97,7 +97,6 @@ class Form extends Component {
 }
 
 const mapStateToProps = state => {
-  console.log('Login state==> ', state);
   const {loading, userData, validUser, firstName, lastName} = state.auth;
   return {
     loading,
@@ -112,3 +111,6 @@ export default connect(
   mapStateToProps,
   {checkEmailExist, setUserData},
 )(Form);
+Form.propTypes = {
+  firstName: PropTypes.string
+};

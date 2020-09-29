@@ -33,7 +33,6 @@ class DashBoard extends Component {
     NativeModules.DeviceCheck.checkIsEmulator();
 
     NativeModules.DeviceCheck.getStatusDevice((error, isEmulator) => {
-      console.log('native log==>', isEmulator);
       if (isEmulator) {
         this.setState({isDevice: false});
       } else {
